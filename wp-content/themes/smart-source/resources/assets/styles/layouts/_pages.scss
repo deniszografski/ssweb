@@ -1,0 +1,71 @@
+.homepage {
+  .section {
+    text-align: center;
+    &.intro {
+      span {
+        color: #27ae60;
+      }
+    }
+    &.contact {
+      .holder {
+        h1 {
+          margin: 40px 0;
+          span {
+            display: block;
+          }
+        }
+        details,
+        summary {
+          outline: none;
+          &:focus {
+            outline: none;
+          }
+        }
+        summary {
+          padding-bottom: 1em;
+        }
+        .wpcf7-submit {
+          border: none;
+          background: transparent;
+          outline: none;
+          pointer-events: all;
+          cursor: pointer;
+          transition: all .5s linear;
+          &:hover {
+            -ms-transform: scale(2);
+            -webkit-transform: scale(2);
+            transform: scale(2);
+          }
+        }
+      }
+    }
+  }
+  .down-arrow {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    cursor: pointer;
+    &.bounce {
+      -moz-animation: bounce 3s infinite;
+      -webkit-animation: bounce 3s infinite;
+      animation: bounce 3s infinite;
+    }
+  }
+}
+
+#fp-nav {
+  ul {
+    li {
+      a {
+        span {
+          object-fit: fill;
+        }
+        &.active {
+          span {
+            background: #27ae60;
+          }
+        }
+      }
+    }
+  }
+}
