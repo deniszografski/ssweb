@@ -130,6 +130,9 @@ let webpackConfig = {
       Tether: 'tether',
       'window.Tether': 'tether',
     }),
+    new webpack.ProvidePlugin({
+    IScroll: "fullpage.js/vendors/scrolloverflow.min"
+    }),
     new webpack.LoaderOptionsPlugin({
       minimize: config.enabled.optimize,
       debug: config.enabled.watcher,

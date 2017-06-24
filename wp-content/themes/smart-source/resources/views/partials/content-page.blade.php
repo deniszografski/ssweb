@@ -55,16 +55,9 @@
         </div>
     </div>
     <div class="section contact">
-        <div class="holder">
+        <div id="contact-wrapper" class="holder">
             <h1>Have a question?<span>Don't hesitate to contact me </span></h1>
-            <details open>
-                <summary>Contact info:</summary>
-                <a href="mailto:zografski.denis@gmail.com?subject=Mail from Web">
-                    <p>Send me email</p>
-                </a>
-                <a href=""><p>My Sykpe ID: denis.zografski2</p></a>
-                <a href="tel:+385914433467"><p>My Tel: +385914433467</p></a>
-            </details>
+            {!! do_shortcode('[contact-form-7 id="7" title="contact_form_EN"]') !!}
         </div>
     </div>
 </div>
