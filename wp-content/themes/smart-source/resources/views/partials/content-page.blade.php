@@ -3,7 +3,7 @@
         <div class="container">
             <h1><span>©</span> 2017 Source Inc.</h1>
             <summary>
-                 <q>Another solution isn't option</q>
+                 <q>Another solution isn't an option</q>
             </summary>
         </div>
         <div class="down-arrow bounce">
@@ -12,10 +12,25 @@
     </div>
     <div class="section web">
         <div class="container">
-            <h1>WEB DEVELOPMENT</h1>
-            <summary>
+            {{-- <summary>
             HTML 5 | CSS3 | jQuery | Javascript | PHP | mySQL + Custom Themes for <u>Wordpress</u>
-            </summary>
+            </summary> --}}
+            <div class="slide">
+                <h1>WEB DEVELOPMENT</h1>
+                    <summary>
+                    HTML 5 | CSS3 | jQuery | Javascript | PHP | mySQL
+                    </summary>
+            </div>
+            <div class="slide">
+                <h1>Custom Wordpress Theme Development</h1>
+                    <summary>
+                   Development web projects based on Wordpress CMS which includes:
+                   <ul>
+                        <li>Creating design for web project</li>
+                        <li>Implemented design using </li>
+                   </ul>
+                    </summary>
+            </div>
         </div>
         <div class="down-arrow bounce">
             <img width="40" height="40" alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDMyIDMyIiBoZWlnaHQ9IjMycHgiIGlkPSLQodC70L7QuV8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMycHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik0yNC4yODUsMTEuMjg0TDE2LDE5LjU3MWwtOC4yODUtOC4yODhjLTAuMzk1LTAuMzk1LTEuMDM0LTAuMzk1LTEuNDI5LDAgIGMtMC4zOTQsMC4zOTUtMC4zOTQsMS4wMzUsMCwxLjQzbDguOTk5LDkuMDAybDAsMGwwLDBjMC4zOTQsMC4zOTUsMS4wMzQsMC4zOTUsMS40MjgsMGw4Ljk5OS05LjAwMiAgYzAuMzk0LTAuMzk1LDAuMzk0LTEuMDM2LDAtMS40MzFDMjUuMzE5LDEwLjg4OSwyNC42NzksMTAuODg5LDI0LjI4NSwxMS4yODR6IiBmaWxsPSIjMTIxMzEzIiBpZD0iRXhwYW5kX01vcmUiLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4=" />
@@ -57,6 +72,13 @@
     <div class="section contact">
         <div id="contact-wrapper" class="holder">
             <h1>Have a question?<span>Don't hesitate to contact me </span></h1>
+            <figure>
+				<img src="http://www.smart-source.hr/wp-content/uploads/2017/06/AAEAAQAAAAAAAAQkAAAAJGFiNzgxZjg3LTM2ZmItNDU0ZC1hMzQ2LTI5MjlmZmQ3MTVjMQ.jpg" alt="Denis Zografski - Software Developer">
+				<figcaption>
+					<p>CEO <a href="https://www.linkedin.com/in/denis-zografski-0b1b5b75/?ppe=1">Denis Zografski</a><span>, bacc.ing.rac</span></p>
+					<p></p>
+				</figcaption>
+			</figure>
             {!! do_shortcode('[contact-form-7 id="7" title="contact_form_EN"]') !!}
         </div>
     </div>

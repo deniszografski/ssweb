@@ -69,3 +69,12 @@
     }
   }
 }
+.fullpage-wrapper {
+  .fp-controlArrow.fp-prev {
+    border-color: transparent #27ae60 transparent transparent;
+  }
+  .fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent #27ae60;
+  }
+
+}

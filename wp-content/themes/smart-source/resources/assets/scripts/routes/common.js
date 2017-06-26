@@ -17,9 +17,11 @@ export default {
     $('.down-arrow').on('click',function(){
       $.fn.fullpage.moveSectionDown();
     });
-     $('#contact-wrapper').slimScroll({
-        height: '400px',
-    });
+    if($( window ).width() < 700) {
+      $('#contact-wrapper').slimScroll({
+          height: '400px',
+      });
+    }
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
